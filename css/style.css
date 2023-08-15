@@ -1,0 +1,127 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+h5 {
+    padding: 0;
+    margin: 5px;
+}
+hr.thick{
+    border: 1px solid black;
+    width: 80%;
+}
+
+form.vertForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#createAccountForm {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+#loginForm {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#boardContainer {
+    display: flex;
+    flex-direction: row;
+    min-width: 90vh;
+    min-height: 100%;
+}
+
+#boardItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+.boardItemViewer {
+    font-size: 1em;
+    border-top: 1px solid black;
+}
+
+.boardItemEditor {
+    padding-top: 3px;
+    font-size: 1em;
+    border-top: 1px solid black;
+}
+
+#boardAppointments {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 33%;
+    border-right: 1px solid black;
+}
+
+#boardComments {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 33%;
+    /* border-right: 1px solid black; */
+}
+
+#boardUsers {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+    min-height: 50vh;
+}
+
+#addBoardItem {
+    margin-top: auto;
+}
+
+#addAppointment {
+    margin-top: auto;
+}
+
+.vertScroll {
+    margin-top: 0;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#deleteAccountBtn {
+    background-color: red;
+    color: white;
+}
