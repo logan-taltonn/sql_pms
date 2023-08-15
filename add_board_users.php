@@ -1,5 +1,4 @@
-<!-- Created by Logan Talton -->
-<!-- Edited by Sloan Davis -->
+
 <?php
 if (!$cur_board_id) {
     $cur_board_id = $_SESSION['curBoardId'];

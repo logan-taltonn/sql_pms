@@ -1,6 +1,4 @@
 <!-- This file takes care of creating an account for a new user -->
-<!-- This file was created by Justin Heger -->
-<!-- This file was edited by Logan Talton -->
 
 <?php
 session_start();

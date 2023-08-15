@@ -1,4 +1,4 @@
-<!-- THIS FILE IS BY SLOAN DAVIS -->
+
 <?php
 $servername = "localhost";
 $username = "root";

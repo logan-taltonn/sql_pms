@@ -1,6 +1,5 @@
 <!-- This is a component that will be rendered in the Dashboard to display board comments with editing capability -->
 
-
 <?php
 // print_r($_SESSION);
 include("templates/db_login.php");
